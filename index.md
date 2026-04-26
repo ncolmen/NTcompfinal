@@ -17,10 +17,12 @@ The graph shows the ratings of the course pacing from beginner students. A count
 
 ## Graph 2: Pacing Selections by Prior Experience Level
 <img src="imgs/graph2.png" alt="Graph 2"  width="500"/>
+
 The graph shows the pacing ratings across all experience levels of the students in the class. The data was split into groups with hue and as a result the bar graph contains multiple colored bars per category with each color representing a different experience level. It shows that beginners rate the pacing slightly higher than their peers with prior programming experience. 
 
 ## Graph 3: Pacing Compared to Student Reported Course Difficulty 
 <img src="imgs/graph3.png" alt="Graph 3"  width="500"/>
+
 The graph shows a basis for a relationship between perceieved difficulty and course pacing ratings.A countplot was used and  the x axis reflects data concerning pacing with the y axis representing data for the count of how many students fall into each of the combined groups. The hues show level of difficulty.The higher the pacing rating, the higher the course difficulty was perceived by the students. 
 
 ## Conclusion
