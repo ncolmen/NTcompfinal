@@ -5,9 +5,18 @@ layout: default
 
 # Summary of Survey Analysis Process and Results 
 
-This analysis took survey data collected from the COMP 110 Spring 2026 Class (Hinks) and attempted to see if the course pacing was appropriate for beginner level coding students. An initial suggestion to adjust the pacing of the course to accomodate the beginner level coding students. A variety of functiosn such as read_csv_rows, columnar, select, and a custom helper function named find_beginners was used to sort and filter the necessary data before converting it into readable bar graphs. The graphs are detailed with their results below. 
+This analysis took survey data collected from the COMP 110 Spring 2026 Class (Hinks) and attempted to see if the course pacing was appropriate for beginner level coding students. An initial suggestion to adjust the pacing of the course to accomodate the beginner level coding students. A variety of functions such as read_csv_rows, columnar, select, and a custom helper function named find_beginners was used to sort and filter the necessary data before converting it into readable bar graphs. The graphs are detailed with their results below. 
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
+
+# Graph Choice Process: Access and Rationale
+
+I navigated to the seaborn.pydata.ord/api.html link provided to explore the different types of distribution plots I could pick from and under categorical I chose count plot to show the counts of observations in each categorical bin using bars. This will also prevent any complex grouping that I would have to do if I had chosen something like catplot. 
+
+To do this I will import seaborn as sns and set the theme along with creating a countplot. I chose a countplot because the pace ratings are categorical choices representing a comfort with the speed of the course and overall will be showing frequency of categories rather than a relationship between variables. 
+
+I cannot use a scatterplot because there isn't two numeric values with a relationship between variables yet. I can't use a lineplot because im not seeing a trend over time with this data. 
+
 
 
 ## Graph 1: Course Pacing Selections from Beginner Students
