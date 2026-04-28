@@ -36,13 +36,13 @@ The graph shows the pacing ratings across all experience levels of the students 
 
 The graph shows a basis for a relationship between perceieved difficulty and course pacing ratings.A countplot was used and  the x axis reflects data concerning pacing with the y axis representing data for the count of how many students fall into each of the combined groups. The hues show level of difficulty.The higher the pacing rating, the higher the course difficulty was perceived by the students. 
 
-## Conclusion
+## Conclusion: Summary of Suggestion Outcome
 The analysis shows that while this does not prove that the pacing of the course is contributing to increased difficulty for beginners it does suggest that faster pacing may be associated with students finding the content a little more difficult. Overall, the evidence does not support the suggestion that an adjustment in the course pacing is necessary for beginner students. 
 
-## Recommendations and Constraints 
+## Conclusion: Recommendations and Constraints 
 One recommendation would be to offer a recitation period for the course where students can work collectively on coding with a TA present. This would allow for more accessible hours for tutoring style help and allow students to work out problems togther rather than the single ticket method instead of following my original suggestion. The original suggestion could potentially put more experienced students at risk and slow down their engagement in the course and the rate at which they are learning due to not being able to cover enough content or increasing general disinterest due to a pace that is too slow. 
 
-## Refinements 
+## Conclusion: Refinements 
 An alternate idea or refinement to consider would be to increase teh amount of practice prompts available to students since they are required to practice coding daily. For beginner programmers it can be difficult to successfully follow a self created prompt and then make sure that they are sticking to the scope of the course or fully testing their capabilities to prepare for exams. In the future it could help to analyze other holistic factors concerning a student's available study time after class other than just social media and tutoring usage. Some students also commute and appreciate there being online help available as well during normal tutoring hours other than the tutoring center. 
 
 ## Thank you!
