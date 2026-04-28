@@ -11,6 +11,8 @@ This analysis took survey data collected from the COMP 110 Spring 2026 Class and
 
 # Graph Choice Process: Access and Rationale
 
+Disclaimer: Graphs do not have additional labeling past what was indicated by instructions because I saw that additional labeling and features were optional and had  my graphs looked at and approved at office hours 
+
 I navigated to the seaborn.pydata.ord/api.html link provided to explore the different types of distribution plots I could pick from and under categorical I chose count plot to show the counts of observations in each categorical bin using bars. This will also prevent any complex grouping that I would have to do if I had chosen something like catplot. 
 
 To do this I imported seaborn as sns and set the theme along with creating a countplot. I chose a countplot because the pace ratings are categorical choices representing a comfort with the speed of the course and overall will be showing frequency of categories rather than a relationship between variables. 
