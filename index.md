@@ -5,7 +5,7 @@ layout: default
 
 # Summary of Survey Analysis Process and Results 
 
-This analysis took survey data collected from the COMP 110 Spring 2026 Class (Hinks) and attempted to see if the course pacing was appropriate for beginner level coding students. An initial suggestion to adjust the pacing of the course to accomodate the beginner level coding students. A variety of functions such as read_csv_rows, columnar, select, and a custom helper function named find_beginners was used to sort and filter the necessary data before converting it into readable bar graphs. The graphs are detailed with their results below. 
+This analysis took survey data collected from the COMP 110 Spring 2026 Class and attempted to see if the course pacing was appropriate for beginner level coding students. An initial suggestion to adjust the pacing of the course to accomodate the beginner level coding students. A variety of functions such as read_csv_rows, columnar, select, and a custom helper function named find_beginners was used to sort and filter the necessary data before converting it into readable bar graphs. The graphs are detailed with their results below. 
 
 <!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
 
@@ -13,23 +13,23 @@ This analysis took survey data collected from the COMP 110 Spring 2026 Class (Hi
 
 I navigated to the seaborn.pydata.ord/api.html link provided to explore the different types of distribution plots I could pick from and under categorical I chose count plot to show the counts of observations in each categorical bin using bars. This will also prevent any complex grouping that I would have to do if I had chosen something like catplot. 
 
-To do this I will import seaborn as sns and set the theme along with creating a countplot. I chose a countplot because the pace ratings are categorical choices representing a comfort with the speed of the course and overall will be showing frequency of categories rather than a relationship between variables. 
+To do this I imported seaborn as sns and set the theme along with creating a countplot. I chose a countplot because the pace ratings are categorical choices representing a comfort with the speed of the course and overall will be showing frequency of categories rather than a relationship between variables. 
 
-I cannot use a scatterplot because there isn't two numeric values with a relationship between variables yet. I can't use a lineplot because im not seeing a trend over time with this data. 
+I could not use a scatterplot because there isn't two numeric values with a relationship between variables at the point of analysis. I can't use a lineplot because I was not observing a trend over time with this data. 
 
 
 
-## Graph 1: Course Pacing Selections from Beginner Students
+## Graph 1: Count of Course Pacing Selections from Beginner Students 
 <img src="static/imgs/graph1.png" alt="Graph 1"  width="500"/>
 
 The graph shows the ratings of the course pacing from beginner students. A countplot was used and  the x axis reflects data concerning pacing with the y axis representing data for the count of the studets that selected a certain pacing. A majority of the responses were centered around 4 and 5 indicating that many beginners felt that the pace of the course was moderate to fast.
 
-## Graph 2: Pacing Selections by Prior Experience Level
+## Graph 2: Count of Pacing Selections by Prior Experience Level 
 <img src="static/imgs/graph2.png" alt="Graph 2"  width="500"/>
 
 The graph shows the pacing ratings across all experience levels of the students in the class. The data was split into groups with hue and as a result the bar graph contains multiple colored bars per category with each color representing a different experience level. It shows that beginners rate the pacing slightly higher than their peers with prior programming experience. 
 
-## Graph 3: Pacing Compared to Student Reported Course Difficulty 
+## Graph 3: Count of Pacing Compared to Student Reported Course Difficulty 
 <img src="static/imgs/graph3.png" alt="Graph 3"  width="500"/>
 
 The graph shows a basis for a relationship between perceieved difficulty and course pacing ratings.A countplot was used and  the x axis reflects data concerning pacing with the y axis representing data for the count of how many students fall into each of the combined groups. The hues show level of difficulty.The higher the pacing rating, the higher the course difficulty was perceived by the students. 
