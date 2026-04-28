@@ -17,7 +17,7 @@ I navigated to the seaborn.pydata.ord/api.html link provided to explore the diff
 
 To do this I imported seaborn as sns and set the theme along with creating a countplot. I chose a countplot because the pace ratings are categorical choices representing a comfort with the speed of the course and overall will be showing frequency of categories rather than a relationship between variables. 
 
-I could not use a scatterplot because there isn't two numeric values with a relationship between variables at the point of analysis. I can't use a lineplot because I was not observing a trend over time with this data. 
+I could not use a scatterplot because there isn't two numeric values with a relationship between variables at the point of analysis. I couldn't use a lineplot because I was not observing a trend over time with this data. 
 
 
 
